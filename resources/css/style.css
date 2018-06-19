@@ -1,0 +1,27 @@
+
+/*heading*/
+.header {
+  display: flex;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  border-bottom: 1px solid black;
+  padding: 10px;
+}
+
+.header h2 {
+  color: mediumaquamarine;
+  flex-grow: 3;
+  padding-left: 10px;
+}
+
+.header span {
+  display: block;
+  font-size: 16px;
+  font-weight: 100;
+  padding: 20px;
+}
+
+.column .large {
+  width: 300px;
+}
