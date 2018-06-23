@@ -2,57 +2,43 @@
 
 /*background images*/
 
-.image-content1 {
+.image-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 300px;
+  margin-top: 15px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+}
+
+.box1 .image-content {
   background-image: url("c:/Projects/My_Times/resources/images/img-story-main.png");
   width: 630px;
   margin-top: 0;
-  height: 300px;
-  font-family: Georgia;
-  font-weight: bold;
-  color: white;
   font-size: 40px;
   text-align: left;
 }
 
-.image-content2 {
-  padding: 0;
-  margin: 0;
+.box1 span {
+  margin-left: 20px;
+}
+
+.box2 .image-content {
   background-image: url("c:/Projects/My_Times/resources/images/img-story-2.png");
-  height: 300px;
   max-width: 295px;
-  margin-top: 15px;
-  font-family: Georgia;
-  font-weight: bold;
-  font-size: 30px;
-  color: white;
-  text-align: center;
 }
 
-.image-content3 {
-  padding: 0;
-  margin: 0;
+.box3 .image-content {
   background-image: url("c:/Projects/My_Times/resources/images/img-story-3.png");
-  height: 300px;
   max-width: 295px;
-  margin-top: 15px;
-  font-family: Georgia;
-  font-weight: bold;
-  font-size: 30px;
-  color: white;
-  text-align: center;
 }
 
-#cats h3 {
-  padding: 0;
-  margin: 0;
+.medium .image-content {
   background-image: url("c:/Projects/My_Times/resources/images/img-story-1.png");
-  height: 300px;
-  margin-top: 15px;
-  font-family: Georgia;
-  font-weight: bold;
-  font-size: 30px;
-  color: white;
-  text-align: center;
 }
 
 /* header */
@@ -89,11 +75,12 @@ header {
   color: MediumAquamarine;
 }
 
-header, nav {
+header nav {
   padding-right: 40px;
 }
 
-header, span {
+nav span {
+  display: inline-block;
   padding: 20px 10px;
 }
 
@@ -150,10 +137,14 @@ a {
   display: block;
   padding: 11px 20px;
   border-bottom: 1px solid black;
-  background-color: white;
+  background-color: whitesmoke;
   font-family: verdana;
   font-size: 12px;
   color: DimGray;
+}
+
+.paragraph {
+  margin-top: 16px;
 }
 
 /* footer */
